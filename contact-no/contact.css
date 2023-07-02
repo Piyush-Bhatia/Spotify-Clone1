@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+
+/* Making body of the page with 0 margins and 0 paddings */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* This is the top most div section of the page  which consist of a logo image and spotify text.  */
+.top{
+    outline: rgb(191, 191, 191) 1px solid;
+    height: 100px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+/* This is for correcting the spotify color as a link. */
+.top h2 a{
+<<<<<<< HEAD
+    font-size: xx-large;
+=======
+>>>>>>> 2bf9d3abc19c8fcd04c9f6774060a3f4a04a5f7e
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+/* This is for correcting the logo image proportions according to the page  */
+.logo-image{
+<<<<<<< HEAD
+    margin-top: 10px;
+=======
+>>>>>>> 2bf9d3abc19c8fcd04c9f6774060a3f4a04a5f7e
+    height: 60px;
+    width: 60px;
+}
+
+.lower{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-size: small;
+    position:relative;
+    left: 10px;
+    top: 10px;
+}
+
+.text h2{
+    width: fit-content;
+}
+
+
+.contact{
+    width: fit-content;
+}
+
+.contact select{
+    border: rgb(191, 191, 191) 1px solid;
+    border-radius: 5px;
+    font-size: medium;
+    padding-left: 13px;
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.contact select:hover{
+    border: black 1px solid;
+}
+
+.contact input{
+    border: rgb(191, 191, 191) 1px solid;
+    border-radius: 5px;
+    font-size: medium;
+    padding-left: 13px;
+    height: 45px;
+    width: 270px;
+}
+
+.contact input:hover{
+    border: black 1px solid;
+}
+
+.remember-button{
+    width: 415px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+<<<<<<< HEAD
+    align-items: center;
+}
+
+.remember-button label{
+    margin-right: 10rem;
+    font-size: medium;
+=======
+}
+
+.remember-button label{
+    font-size: medium;
+    position: relative;
+>>>>>>> 2bf9d3abc19c8fcd04c9f6774060a3f4a04a5f7e
+    right: 80px;
+}
+
+.remember-button button{
+    border: #25df66;
+    background-color: #25df66;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.remember-button button:hover{
+    background-color: #54e085;
+}

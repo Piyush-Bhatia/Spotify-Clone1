@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+
+
+/* Making body of the page with 0 margins and 0 paddings */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* This is the top most div section of the page  which consist of a logo image and spotify text.  */
+.top{
+    outline: rgb(191, 191, 191) 1px solid;
+    height: 100px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+/* This is for correcting the spotify color as a link. */
+.top h2 a{
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+/* This is for correcting the logo image proportions according to the page  */
+.logo-image{
+    height: 60px;
+    width: 60px;
+}
+
+/* This div will contain the form for signup and ajustments for webpage */
+.main{   
+    width: 100%;
+    height: fit-content;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+.upper-half{
+    overflow: hidden;
+    align-items: center;
+    height:200px;
+    position: relative;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.para1{
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.facebook{
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    border-radius: 25px;
+    background-color: rgb(59, 89, 152);
+    color: rgb(248, 248, 248);
+    width: 400px;
+    margin-top:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    letter-spacing: 2px;
+}
+
+.facebook:hover{
+    background-color: rgb(59, 89, 152);
+}
+
+.google{
+    background-color: white;
+    border:grey 1px solid;
+    border-radius: 25px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: rgb(74, 70, 70);
+    width: 400px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    letter-spacing: 2px;
+}
+
+.google:hover{
+    background-color: white;
+    color: rgb(54, 51, 51);
+    border: black 1px solid;
+}
+
+/* or section divider */
+.or-divider{
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: small;
+    font-weight: bold;
+    align-items: center;
+    width: 430px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.span-1{
+    border: rgb(191, 191, 191) 1px solid;
+    width: 170px;
+}
+
+.span-2{
+    border: rgb(191, 191, 191) 1px solid;
+    width: 170px;
+}
+
+
+/* Lower half */
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.part-1{
+    width: fit-content;
+    height: fit-content;
+    font-size: small;
+    font-weight: bold;
+    align-items: flex-start;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.part-1-head{
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.part-1 h6{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.for-email{
+    border:grey 1px solid;
+    width: 395px;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.for-email:hover{
+    border: black 1px solid;
+}
+
+.for-password{
+    border:grey 1px solid;
+    width: 395px;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.for-password:hover{
+    border: black 1px solid;
+}
+
+.for-uname{
+    border:grey 1px solid;
+    width: 395px;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.for-uname:hover{
+    border: black 1px solid;
+}
+
+.dob label{
+    align-items: center;
+    width: 32%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.dob select, input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.a{
+    width: 32%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+} 
+
+.for-gender{
+    display: inline;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.for-gender input{
+    width: 11%;
+    background-color: #25df66;
+}
+
+.link1{
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+}
+
+.link1:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.part-2{
+    width: 410px;
+    height: 100%;
+    font-size: small;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.sign{
+    width: 31%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #25df66;
+    border:grey 1px solid;
+    border-radius: 25px;
+    font-weight: bold;
+    color: rgb(74, 70, 70);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: small;
+    letter-spacing: 2px;
+}
+
+
+.sign:hover{
+    background-color: #54e085;
+}
+
+.part-2 label{
+    font-size: medium;
+    position: relative;
+    left: 10px;
+    bottom: 3px;
+}
+
+.divide{
+    border:grey 1px solid;    
+}
+
+.part-3{
+    width: 395px;
+    align-items: center;
+    text-align: center;
+}
+
+.part-3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+
+.part-3 button:hover{
+    background-color: white;
+    border: black 1px solid;
+}
