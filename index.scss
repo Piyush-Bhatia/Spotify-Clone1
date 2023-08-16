@@ -1,0 +1,116 @@
+$myfont : Helvetica,
+sans-serif;
+$mydisplay: flex, row, wrap;
+
+* {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    font-family: $myfont;
+}
+
+#top {
+
+    nav {
+        position: sticky;
+        height: 80px;
+        width: 100%;
+        color: white;
+        background-color: black;
+        // overflow: hidden;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+        }
+    }
+}
+
+.left {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: 90px;
+
+    li {
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.right {
+    padding: 1%;
+    height: 45px;
+    width: 50%;
+    margin-left: 100px;
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    li {
+        // margin-left: 40px;
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    li a:hover {
+        color: rgb(30, 219, 30);
+    }
+}
+
+// This is the end of the top section consisting of nav, ul, left with(logo and spotify) and right(links).
+
+// This is the beginning of the mid section.
+
+.mid-1-below {
+    background-image: linear-gradient(to bottom right, rgb(212, 82, 147), rgb(78, 0, 74));
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+
+    .circle1 {
+        height: 500px;
+        width: 500px;
+        border-radius: 50%;
+        background-color: rgba(182, 27, 182, 0.788);
+        position: relative;
+        bottom: 30px;
+        left: 63%;
+    }
+
+    .circle2 {
+        height: 500px;
+        width: 500px;
+        border-radius: 50%;
+        background-color: rgba(182, 27, 182, 0.788);
+        position: relative;
+        bottom: 55%;
+    }
+
+    .circle3 {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background-color: rgba(182, 27, 182, 0.788);
+        position: relative;
+        left: 30%;
+        bottom: 550px;
+    }
+
+}
