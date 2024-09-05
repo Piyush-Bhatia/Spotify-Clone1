@@ -3,19 +3,68 @@
   <head>
     <meta charset="UTF-8" lang="English" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script
       src="https://kit.fontawesome.com/fce275a291.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <section id="top">
+  <body style="background-color: black;">
+    <div class="container-fluid w-100 h-100 text-light">
+      <div class="container">
+        <navbar class="navbar navbar-expand-xl">
+          <div class="w-25">
+            <a href="#">
+              <img width="40px" height="40px" src="./White-Spotify-Icon-1024x1024.png" alt="spotify logo">
+            </a>
+          </div>
+          <div class="middle-div gap-3 w-50 d-flex justify-content-center align-items-center">
+            <button class="btn btn-dark border border-0 rounded-circle">
+              <i class="fa fa-home" aria-hidden="true"></i>
+            </button>
+            <div class="search-div border border-0 rounded-pill bg-dark">
+              <i class="fa fa-search px-2" aria-hidden="true" 
+              data-bs-toggle="tooltip" data-bs-placement="bottom"
+              data-bs-custom-class="custom-tooltip"
+              data-bs-title="search"></i>
+              <input type="search" class=" bg-dark text-light border border-0"
+               name="" id="" placeholder="What do you want to play?">
+              |
+              <i class="fa fa-archive px-2" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="w-25 ">
+            <button class='signup  btn btn-dark' >
+              Sign up
+            </button>
+            <button class="login btn btn-light">
+              Log in
+            </button>
+          </div>
+        </navbar>
+      </div>
+    </div>
+    <div class="main-content container-fluid gap-3 my-3 d-flex justify-content-between align-items-center">
+      <div class="left-div w-25 border border-0 rounded bg-dark">
+        <div class="col-md-12 col-sm-4 d-flex justify-content-between align-items-center container">
+          <div class="lib-logo d-flex justify-content-evenly align-items-center gap-3">
+            <img src="./book.png" alt="library stack logo">
+            <h5 class="text-light m-0">Your Library</h5>
+          </div>
+          <button class="btn btn-dark" type="button">+</button>
+        </div>
+      </div>
+      <div class="right-div  border border-warning"></div>
+    </div>
+
+
+    <!-- <section id="top">
       <nav>
         <ul>
           <div class="left">
             <img
-              src="/Spotify-Clone1/White-Spotify-Icon-1024x1024.png"
+              src="./White-Spotify-Icon-1024x1024.png"
               alt="spotify logo"
             />
             <li>Spotify</li>
@@ -48,8 +97,8 @@
         <br />
         <button type="submit" class="get-free-music">GET SPOTIFY FREE</button>
       </div>
-    </section>
-    <!-- 
+    </section> -->
+<!--     
     <footer>
       <div class="main1">
         <div class="one">
@@ -122,4 +171,5 @@
       </div>
     </footer> -->
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>

@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
 
 body {
     margin: 0;
@@ -354,7 +354,7 @@ footer {
 }
 
 .left ul li {
-    font-size: small;
+    font-size: small;   
 }
 
 .right2 {
@@ -371,4 +371,4 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-} */
+}
