@@ -13,7 +13,7 @@
   </head>
   <body style="background-color: black;">
     <div class="container-fluid w-100 h-100 text-light">
-      <div class="container">
+      <div class="container"> 
         <navbar class="navbar navbar-expand-xl">
           <div class="w-25">
             <a href="#">
@@ -21,7 +21,7 @@
             </a>
           </div>
           <div class="middle-div gap-3 w-75 d-flex justify-content-center align-items-center">
-            <button class="btn btn-dark border border-0 rounded-circle p-3">
+            <button class="btn btn-dark border border-0 rounded-circle px-3 py-2">
               <i class="fa fa-home" aria-hidden="true"></i>
             </button>
             <div class="search-div border border-0 rounded-pill bg-dark p-2">
@@ -46,8 +46,8 @@
         </navbar>
       </div>
     </div>
-    <div class="main-content container-fluid gap-3 my-3 d-flex justify-content-between align-items-center">
-      <div class="left-div w-25 border border-0 rounded bg-dark p-2">
+    <div class="main-content container-fluid gap-3 my-3 d-flex align-items-center">
+      <div class="left-div w-25 border border-0 rounded p-3">
         <div class="col-md-12 col-sm-4 d-flex justify-content-between align-items-center container">
           <div class="lib-logo d-flex justify-content-evenly align-items-center gap-3">
             <img src="./book.png" alt="library stack logo">
@@ -55,13 +55,13 @@
           </div>
           <button class="plus-button btn btn-dark" type="button">+</button>
         </div>
-        <div class="modal-dialog-scrollable">
-          <div class="left-first my-5 text-light border border-light px-4 py-2 rounded bg-secondary">
+        <div class="overflow-auto">
+          <div class="left-first my-5 text-light border border-light px-4 py-2 rounded bg-dark">
             <h6>Create your first playlist</h6>
             <p>It's easy, we'll help you</p>
             <button class="btn btn-light rounded-pill">Create playlist</button>
           </div>
-          <div class="left-second text-light border border-light rounded bg-secondary px-4 py-2">
+          <div class="left-second text-light border border-light rounded bg-dark px-4 py-2">
             <h6>Let's find some podcasts to follow</h6>
             <p>We'll keep you updated on new episodes</p>
             <button class="btn btn-light rounded-pill">Browse Podcasts</button>
@@ -99,121 +99,36 @@
           </div>
         </div>
       </div>
-      <div class="right-div  border border-warning"></div>
+      <div class="right-div w-75 border border-warning text-light p-3 rounded">
+        <h2>Browse All</h2> 
+        <div class="cards p-3">
+          <div class="row">
+            <div class="col-md-3 rounded" style="height: 100%;">
+              <div class="p-2 bg-danger rounded">
+                Music
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="p-2 bg-danger rounded">
+                Podcasts
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="p-2 bg-danger rounded">
+                Live Events
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="p-2 bg-danger rounded">
+                Made For You
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
 
-    <!-- <section id="top">
-      <nav>
-        <ul>
-          <div class="left">
-            <img
-              src="./White-Spotify-Icon-1024x1024.png"
-              alt="spotify logo"
-            />
-            <li>Spotify</li>
-          </div>
-          <div class="right">
-            <li>Premium</li>
-            <li>Support</li>
-            <li>Download</li>
-            <li>|</li>
-            <li class="sign">
-              <a href="./signup/signup.html">Sign up</a>
-            </li>
-            <li class="log">
-              <a href="/Spotify-Clone1/login-files/login.html">Log in</a>
-            </li>
-          </div>
-        </ul>
-      </nav>
-    </section>
-
-    <section id="mid1">
-      <div class="mid-1-below">
-        <div class="circle1"></div>
-        <div class="circle2"></div>
-        <div class="circle3"></div>
-        <div class="circle4"></div>
-        <div class="main-text">
-          <h1>Play millions of songs and podcasts, for free.</h1>
-        </div>
-        <br />
-        <button type="submit" class="get-free-music">GET SPOTIFY FREE</button>
-      </div>
-    </section> -->
-<!--     
-    <footer>
-      <div class="main1">
-        <div class="one">
-          <img src="/Spotify-Clone1/contents/logo.png" alt="spotify logo" />
-          <p>Spotify</p>
-        </div>
-        <div class="two">
-          <ul>
-            <li class="comp">COMPANY</li>
-            <li>About</li>
-            <li>Jobs</li>
-            <li>For the Record</li>
-          </ul>
-        </div>
-        <div class="three">
-          <ul>
-            <li class="comm">COMMUNITIES</li>
-            <li>For Artists</li>
-            <li>Developers</li>
-            <li>Advertising</li>
-            <li>Investors</li>
-            <li>Vendors</li>
-          </ul>
-        </div>
-        <div class="four">
-          <ul>
-            <li class="usel">USEFUL LINKS</li>
-            <li>Support</li>
-            <li>Web Player</li>
-            <li>Free Mobile App</li>
-          </ul>
-        </div>
-        <div class="five">
-          <span class="five1">
-            <a href="https://www.instagram.com/spotify/"
-              ><i class="fa-brands fa-instagram-square"></i
-            ></a>
-          </span>
-          <span class="five1">
-          <span>
-            <a href="https://twitter.com/spotify"
-              ><i class="fa-brands fa-twitter-square"></i
-            ></a>
-          </span>
-          <span class="five1">
-          <span>
-            <a href="https://www.facebook.com/Spotify"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-          </span>
-        </div>
-      </div>
-      <div class="main2">
-        <div class="left">
-          <ul>
-            <li>Legal</li>
-            <li>Privacy Center</li>
-            <li>Privacy Policy</li>
-            <li>Cookies</li>
-            <li>About Ads</li>
-          </ul>
-        </div>
-        <div class="right2">
-          <span>
-            India (English)
-            <br />
-            2022 Spotify AB
-          </span>
-        </div>
-      </div>
-    </footer> -->
   </body>
   <script src="./func.js"></script>
 </html>
