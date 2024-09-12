@@ -56,15 +56,15 @@
           <button class="plus-button btn btn-dark" type="button">+</button>
         </div>
         <div class="overflow-auto">
-          <div class="left-first my-5 text-light border border-light px-4 py-2 rounded bg-dark">
+          <div class="left-first my-5 text-light px-4 py-2 rounded bg-dark">
             <h6>Create your first playlist</h6>
             <p>It's easy, we'll help you</p>
-            <button class="btn btn-light rounded-pill">Create playlist</button>
+            <button class="btn btn-light rounded-pill px-4 fw-bold">Create playlist</button>
           </div>
-          <div class="left-second text-light border border-light rounded bg-dark px-4 py-2">
+          <div class="left-second text-light rounded bg-dark px-4 py-2">
             <h6>Let's find some podcasts to follow</h6>
             <p>We'll keep you updated on new episodes</p>
-            <button class="btn btn-light rounded-pill">Browse Podcasts</button>
+            <button class="btn btn-light rounded-pill px-4 fw-bold">Browse Podcasts</button>
           </div>
           <div class="footer-div my-5 border border-light rounded p-3">
             <div class="px-1">
@@ -99,28 +99,145 @@
           </div>
         </div>
       </div>
-      <div class="right-div w-75 border border-warning text-light p-3 rounded">
-        <h2>Browse All</h2> 
-        <div class="cards p-3">
+      <div class="right-div w-75 border border-secondary border-0 text-light p-3 rounded">
+        <h2 class="p-3">Browse All</h2> 
+        <div class="cards p-3 overflow-auto">
           <div class="row">
-            <div class="col-md-3 rounded" style="height: 100%;">
-              <div class="p-2 bg-danger rounded">
-                Music
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-danger rounded">
+                <div class="card-heading">Music</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://www.nme.com/wp-content/uploads/2019/11/Taylor-Swifts-team-responds-to-Big-Machines-denial-696x442.jpg" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
               </div>
             </div>
             <div class="col-md-3">
-              <div class="p-2 bg-danger rounded">
-                Podcasts
+              <div class="card-item p-2 bg-success rounded">
+                <div class="card-heading">Podcast</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://upload.wikimedia.org/wikipedia/en/6/6d/Science_Vs_Podcast.jpg" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
               </div>
             </div>
             <div class="col-md-3">
-              <div class="p-2 bg-danger rounded">
-                Live Events
+              <div class="card-item p-2 bg-primary rounded">
+                <div class="card-heading">Podcast</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl8R9wixRz7MkjYUk2NQOK6Vb2EjWI9snG_g&s" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
               </div>
             </div>
             <div class="col-md-3">
-              <div class="p-2 bg-danger rounded">
-                Made For You
+              <div class="card-item p-2 bg-dark rounded">
+                <div class="card-heading">Podcast</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ce111ea6047b64c894fe34fe" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row 2 -->
+          <div class="row my-4">
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-danger rounded">
+                <div class="card-heading">New Releases</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://cdn.dribbble.com/users/31988/screenshots/10761127/media/26d03a849c4fad9299f37572d031566e.gif" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-success rounded">
+                <div class="card-heading">Hindi</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84de615224f4c5d251868bc51d" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-primary rounded">
+                <div class="card-heading">Punjabi</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://i.scdn.co/image/ab67706f00000002337cb4040fc1f98b5108d1ae" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-dark rounded">
+                <div class="card-heading">Tamil</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://i.scdn.co/image/ab67706f000000025a556dc89b13cb1e833a1f9f" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row-3 -->
+          <div class="row my-4">
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-danger rounded">
+                <div class="card-heading">Telugu</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://i.scdn.co/image/ab67706f00000002d53aed24fb97e8f98e25e31c" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-success rounded">
+                <div class="card-heading">Podcast Charts</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://storage.googleapis.com/pr-newsroom-wp/1/2020/07/spotifycharts-medium-trendingpodcasts-1100x619.png" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-primary rounded">
+                <div class="card-heading">Podcast News Releases</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/10/TrevorNoah_KeyArt_APPROVED-1440x1440.jpg" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-dark rounded">
+                <div class="card-heading">Video Podcasts</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://images.ctfassets.net/b4k16c7lw5ut/QQ6vYHrCJ9sOXaH5XyXX4/c64e69d782bc53b6e49d632c87d3204d/image3.png?w=1920&h=1080&q=50&fm=png" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row 4 -->
+          <div class="row my-4">
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-danger rounded">
+                <div class="card-heading">Business & technology</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://i.scdn.co/image/ab67706f00000002d53aed24fb97e8f98e25e31c" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-success rounded">
+                <div class="card-heading">Charts</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://storage.googleapis.com/pr-newsroom-wp/1/2020/07/spotifycharts-medium-trendingpodcasts-1100x619.png" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-primary rounded">
+                <div class="card-heading">Malayalam</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/10/TrevorNoah_KeyArt_APPROVED-1440x1440.jpg" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-item p-2 bg-dark rounded">
+                <div class="card-heading">Bhojpuri</div>
+                <div class="card-img mt-3 overflow-hidden d-flex justify-content-end">
+                  <img class="rounded" src="https://images.ctfassets.net/b4k16c7lw5ut/QQ6vYHrCJ9sOXaH5XyXX4/c64e69d782bc53b6e49d632c87d3204d/image3.png?w=1920&h=1080&q=50&fm=png" alt="" height="100px" width="150px" style="transform: rotate(20deg);">
+                </div>
               </div>
             </div>
           </div>
