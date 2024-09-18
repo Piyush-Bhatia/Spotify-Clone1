@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
 
-
-/* Making body of the page with 0 margins and 0 paddings */
 body{
     margin: 0%;
     padding: 0%;
+    background-color: rgba(0, 0, 0, 0.844);
 }
 
+.inner-div{
+    
+}
+
+/* Making body of the page with 0 margins and 0 paddings */
+
 /* This is the top most div section of the page  which consist of a logo image and spotify text.  */
-.top{
+/* .top{
     outline: rgb(191, 191, 191) 1px solid;
     height: 100px;
     font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
@@ -19,31 +24,31 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-}
+} */
 
 /* This is for correcting the spotify color as a link. */
-.top h2 a{
+/* .top h2 a{
     position: relative;
     top: 10px;
     font-weight: bold;
     text-decoration: none;
     color: black;
-}
+} */
 
 /* This is for correcting the logo image proportions according to the page  */
-.logo-image{
+/* .logo-image{
     height: 60px;
     width: 60px;
 }
-
+ */
 /* This div will contain the form for signup and ajustments for webpage */
-.main{   
+/* .main{   
     width: 100%;
     height: fit-content;
     font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
-}
+} */
 
-.upper-half{
+/* .upper-half{
     overflow: hidden;
     align-items: center;
     height:200px;
@@ -53,15 +58,15 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 20px;
-}
+} */
 
-.para1{
+/* .para1{
     font-family: 'Oswald', sans-serif;
     font-size: x-large;
     font-weight: 900;
-}
+} */
 
-.facebook{
+/* .facebook{
     font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
     border-radius: 25px;
     background-color: rgb(59, 89, 152);
@@ -72,13 +77,13 @@ body{
     padding-bottom: 10px;
     font-size: medium;
     letter-spacing: 2px;
-}
+} */
 
-.facebook:hover{
+/* .facebook:hover{
     background-color: rgb(59, 89, 152);
-}
+} */
 
-.google{
+/* .google{
     background-color: white;
     border:grey 1px solid;
     border-radius: 25px;
@@ -91,16 +96,16 @@ body{
     padding-bottom: 10px;
     font-size: medium;
     letter-spacing: 2px;
-}
+} */
 
-.google:hover{
+/* .google:hover{
     background-color: white;
     color: rgb(54, 51, 51);
     border: black 1px solid;
-}
+} */
 
 /* or section divider */
-.or-divider{
+/* .or-divider{
     font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
     font-size: small;
     font-weight: bold;
@@ -114,28 +119,28 @@ body{
     justify-content: space-evenly;
     position: relative;
     margin-bottom: 10px;
-}
+} */
 
-.span-1{
+/* .span-1{
     border: rgb(191, 191, 191) 1px solid;
     width: 170px;
-}
+} */
 
-.span-2{
+/* .span-2{
     border: rgb(191, 191, 191) 1px solid;
     width: 170px;
-}
+} */
 
 
 /* Lower half */
-form{
+/* form{
     align-items: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
+} */
 
-.part-1{
+/* .part-1{
     width: fit-content;
     height: fit-content;
     font-size: small;
@@ -146,22 +151,22 @@ form{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+} */
 
-.part-1-head{
+/* .part-1-head{
     width: 100%;
     padding: 5px;
     font-weight: bold;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
-.part-1 h6{
+/* .part-1 h6{
     margin-bottom: 5px;
     margin-top: 5px;
-}
+} */
 
-.for-email{
+/* .for-email{
     border:grey 1px solid;
     width: 395px;
     border-radius: 3px;
@@ -169,12 +174,13 @@ form{
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 20px;
-}
-.for-email:hover{
-    border: black 1px solid;
-}
+} */
 
-.for-password{
+/* .for-email:hover{
+    border: black 1px solid;
+} */
+
+/* .for-password{
     border:grey 1px solid;
     width: 395px;
     border-radius: 3px;
@@ -182,13 +188,13 @@ form{
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 20px;
-}
+} */
 
-.for-password:hover{
+/* .for-password:hover{
     border: black 1px solid;
-}
+} */
 
-.for-uname{
+/* .for-uname{
     border:grey 1px solid;
     width: 395px;
     border-radius: 3px;
@@ -196,13 +202,13 @@ form{
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 20px;
-}
+} */
 
-.for-uname:hover{
+/* .for-uname:hover{
     border: black 1px solid;
-}
+} */
 
-.dob label{
+/* .dob label{
     align-items: center;
     width: 32%;
     display: inline-flex;
@@ -210,45 +216,45 @@ form{
     justify-content: space-between;
     margin-bottom: 5px;
 }
-
-.dob select, input{
+ */
+/* .dob select, input{
     padding: 5px;
     border-radius: 5px;
     outline: none;
-}
+} */
 
-.a{
+/* .a{
     width: 32%;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 5px;
-} 
+}  */
 
-.for-gender{
+/* .for-gender{
     display: inline;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 15px;
-}
+} */
 
-.for-gender input{
+/* .for-gender input{
     width: 11%;
     background-color: #25df66;
-}
+} */
 
-.link1{
+/* .link1{
     font-size: medium;
     text-decoration: none;
     color: black;
-}
+} */
 
-.link1:hover{
+/* .link1:hover{
     text-decoration: underline;
     color: black;
-}
+} */
 
-.part-2{
+/* .part-2{
     width: 410px;
     height: 100%;
     font-size: small;
@@ -256,9 +262,9 @@ form{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+} */
 
-
+/* 
 .sign{
     width: 31%;
     font-weight: bolder;
@@ -272,21 +278,21 @@ form{
     padding-bottom: 10px;
     font-size: small;
     letter-spacing: 2px;
-}
+} */
 
-
+/* 
 .sign:hover{
     background-color: #54e085;
-}
+} */
 
-.part-2 label{
+/* .part-2 label{
     font-size: medium;
     position: relative;
     left: 10px;
     bottom: 3px;
-}
+} */
 
-.divide{
+/* .divide{
     border:grey 1px solid;    
 }
 
@@ -306,4 +312,4 @@ form{
 .part-3 button:hover{
     background-color: white;
     border: black 1px solid;
-}
+} */
