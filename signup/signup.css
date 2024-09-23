@@ -28,3 +28,13 @@ body{
 .signup-coloring1:hover{
     color: rgb(17, 236, 79);
 }
+
+.display-control{
+    max-width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .display-control{
+        width: 100%;
+    }
+}
