@@ -13,3 +13,18 @@ body{
 .singin-email input:focus {
     border: 2px solid green;
 }
+
+.signup-coloring{
+    background-color: rgb(17, 236, 79);
+}
+.signup-coloring:hover{
+    background-color: rgb(57, 238, 108);
+}
+
+.signup-coloring1{
+    color: rgb(17, 236, 79);
+}
+
+.signup-coloring1:hover{
+    color: rgb(17, 236, 79);
+}
