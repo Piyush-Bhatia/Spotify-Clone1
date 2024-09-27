@@ -7,3 +7,10 @@ body{
     background-color: black;
     color: white;
 }
+
+
+.styling{
+    border: 2px solid white;
+    padding: 3px 15px;
+    width: 500px;
+}
