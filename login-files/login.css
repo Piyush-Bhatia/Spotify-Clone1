@@ -19,11 +19,19 @@ body{
     /* margin-bottom: 40px; */
 }
 
+.group-button{
+    border: 1px solid rgba(255, 255, 255, 0.622);
+}
+.group-button:hover{
+    border: 1px solid white;
+}
+
 /* This is for correcting the logo image proportions according to the page  */
 .logo-image{
     height: 40px;
     width: 40px;
 }
+
 
 /* or section divider */
 /* .or-divider{
