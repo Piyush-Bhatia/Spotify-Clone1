@@ -15,8 +15,6 @@ body{
 .center-div{
     background-color: rgb(16, 15, 15);
     border-radius: 20px;
-    /* overflow: hidden; */
-    /* margin-bottom: 40px; */
 }
 
 .group-button{
@@ -24,6 +22,33 @@ body{
 }
 .group-button:hover{
     border: 1px solid white;
+}
+
+.for-email, .for-password{
+    border:grey 1px solid;
+    width: 45%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.for-email:hover, .for-password:hover{
+    border: 1px solid white
+}
+
+.button-div button{
+    background-color: #3be477;
+    color: black;
+    font-weight: bolder;
+    padding: 15px;
+}
+.button-div button:hover{
+    background-color: #1ed760;
+    color: black;
+    font-weight: bolder;
+}
+
+.link1:hover{
+    color: #1ed760;
 }
 
 /* This is for correcting the logo image proportions according to the page  */
@@ -34,89 +59,6 @@ body{
 
 
 /* or section divider */
-/* .or-divider{
-    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
-    font-size: small;
-    font-weight: bold;
-    align-items: center;
-    width: 430px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    position: relative;
-    left: 460px;
-} */
-
-/* .span-1{
-    border: rgb(191, 191, 191) 1px solid;
-    width: 170px;
-}
-
-.span-2{
-    border: rgb(191, 191, 191) 1px solid;
-    width: 170px;
-} */
-
-
-/* Lower half */
-form{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.part-1{
-    width: 400px;
-    height: 200px;
-    font-size: small;
-    font-weight: bold;
-    align-items: flex-start;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.for-email{
-    border:grey 1px solid;
-    width: 395px;
-    border-radius: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 20px;
-}
-.for-email:hover{
-    border: black 1px solid;
-}
-
-.for-password{
-    border:grey 1px solid;
-    width: 395px;
-    border-radius: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 20px;
-}
-
-.for-password:hover{
-    border: black 1px solid;
-}
-
-.link1{
-    font-size: medium;
-    text-decoration: none;
-    color: black;
-}
-
-.link1:hover{
-    text-decoration: underline;
-    color: black;
-}
 .part-2{
     font-size: small;
     width: 393px;
