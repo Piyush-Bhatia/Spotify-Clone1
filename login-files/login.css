@@ -10,6 +10,7 @@ body{
 .browser-div{
     background-image: linear-gradient(rgb(59, 59, 59), black);
     height: 120vh;
+    padding-bottom: 20px;
 }
 
 .center-div{
@@ -55,83 +56,4 @@ body{
 .logo-image{
     height: 40px;
     width: 40px;
-}
-
-
-/* or section divider */
-.part-2{
-    font-size: small;
-    width: 393px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: last baseline;
-}
-
-.part-2 button{
-    border: white solid;
-    border-radius: 25px;
-    letter-spacing: 2px;
-    position: relative;
-    left: 149px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    background-color: #25df66;
-    color: black;
-}
-
-.login:hover{
-    background-color: #54e085;
-}
-
-.check{
-    height: 15px;
-    width: 15px;
-}
-
-.part-2 label{
-    font-size: medium;
-    position: relative;
-    left: 10px;
-    bottom: 3px;
-}
-
-.divide{
-    border:grey 1px solid;    
-}
-
-.part-3{
-    width: 395px;
-    align-items: center;
-    text-align: center;
-}
-
-.part-3 a{
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-}
-
-.part-3 button{
-    width: 100%;
-    text-transform: uppercase;
-    background-color: white;
-    border:grey 1px solid;
-    border-radius: 25px;
-    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
-    font-weight: bold;
-    color: rgb(74, 70, 70);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: small;
-    letter-spacing: 2px;
-}
-
-.part-3 button:hover{
-    background-color: white;
-    border: black 1px solid;
 }
