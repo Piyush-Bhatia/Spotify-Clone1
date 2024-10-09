@@ -48,7 +48,11 @@ body{
     font-weight: bolder;
 }
 
-.link1:hover{
+.link1, .link2{
+    color: white;
+}
+
+.link1:hover, .link2:hover{
     color: #1ed760;
 }
 
@@ -56,4 +60,8 @@ body{
 .logo-image{
     height: 40px;
     width: 40px;
+}
+
+.footer{
+    background-color: rgb(16, 15, 15);
 }
