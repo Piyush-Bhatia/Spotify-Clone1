@@ -1,12 +1,11 @@
 .main-div{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.964);
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .work-div{
     border: 2px solid red;
-    
+    color: white;
 }
