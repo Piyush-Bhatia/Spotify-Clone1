@@ -1,6 +1,11 @@
-.main-div{
+body{
+    margin: 0px;
+    padding: 0px;
     background-color: rgba(0, 0, 0, 0.964);
-    /*height: 100dvh;*/
+}
+
+.row{
+    --bs-gutter-x: 0rem;
 }
 
 .work-div{
