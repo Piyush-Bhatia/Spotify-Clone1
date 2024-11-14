@@ -65,3 +65,11 @@ body{
 .footer{
     background-color: rgb(16, 15, 15);
 }
+
+.for-email:invalid, .for-password:invalid{
+    border: 2px solid red;
+}
+
+.for-email:valid, .for-password:valid{
+    /* border: ; */
+}
