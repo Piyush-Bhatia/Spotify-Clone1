@@ -9,7 +9,6 @@
     <title>Login - Spotify</title>
   </head>
   <body>
-
     <div class="browser-div d-flex justify-content-center">
       <div class="center-div w-50 text-center">
         <div class="row">
@@ -67,7 +66,7 @@
             <div class="col-md-12 col-sm-12">
               <div class="form">
                 <div class="py-2">
-                  <div class="text-light">
+                  <div class="label-email text-light">
                     <label for="email-address">
                       Email address or username
                     </label>
@@ -77,7 +76,7 @@
                   <input class="for-email bg-transparent text-light" type="text" placeholder="Email address or username" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
                 </div>
                 <div class="py-2">
-                  <label class="text-light text-left" for="password">Password</label>
+                  <label class="label-password text-light text-left" for="password">Password</label>
                 </div>
                 <div class="my-2 mx-4" >
                   <input class="for-password bg-transparent text-light" type="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least 6 characters, should contain one special characters">
@@ -85,7 +84,7 @@
                 </div>
                 <div class="button-div py-3">
                   <div class="col-3 w-25"></div>
-                  <button type="submit" class="login btn btn-success rounded-pill col-5">Log In</button>
+                  <button type="button" class="login btn btn-success rounded-pill col-5">Log In</button>
                   <div class="col-3 w-25"></div>
                 </div>
                 <div class="link ">
@@ -105,5 +104,7 @@
         This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a>  and <a href="https://policies.google.com/terms">Terms of Service</a> apply.
       </p>
     </div>
+
+    <Script src="./login.js"></Script>
   </body>
 </html>
