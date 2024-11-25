@@ -73,13 +73,13 @@
                   </div>
                 </div>
                 <div class="mx-4 my-2">
-                  <input class="for-email bg-transparent text-light" type="text" placeholder="Email address or username" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
+                  <input class="for-email bg-transparent text-light" id="email-address" type="text" placeholder="Email address or username" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
                 </div>
                 <div class="py-2">
                   <label class="label-password text-light text-left" for="password">Password</label>
                 </div>
                 <div class="my-2 mx-4" >
-                  <input class="for-password bg-transparent text-light" type="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least 6 characters, should contain one special characters">
+                  <input id="password" class="for-password bg-transparent text-light" type="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least 6 characters, should contain one special characters">
                   </input>
                 </div>
                 <div class="button-div py-3">
