@@ -68,7 +68,7 @@ body{
 
 
 @media screen and (max-width: 640px) { /*Mobile phone screen resolution*/
-    .center-div{
+    .center-div, .for-email{
         width: 90%;
     }        
     .continue-with-buttons{
@@ -82,7 +82,7 @@ body{
     }
     .white-line{
         width: 100%;
-    }     
+    }
 }
 
 @media screen and (min-width: 641px) and (max-width:768px) {
@@ -92,6 +92,9 @@ body{
     .continue-with-buttons{
         width: 100%;
     }
+    .for-email{
+        width: 70%;
+    }
 }
 @media screen and (min-width: 769px) and (max-width:1024px) {
     .center-div{
@@ -99,6 +102,9 @@ body{
     }    
     .continue-with-buttons{
         width: 75%;
+    }
+    .for-email{
+        width: 80%;
     }
 }
 
@@ -109,6 +115,9 @@ body{
     .continue-with-buttons{
         width: 60%;
     }
+    .for-email{
+        width: 70%;
+    }
          
 }
 
@@ -118,6 +127,9 @@ body{
     }
     .continue-with-buttons{
         width: 60%;
+    }
+    .for-email{
+        width: 70%;
     }
 }
 
