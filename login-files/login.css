@@ -67,56 +67,48 @@ body{
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) { /*Mobile phone screen resolution*/
     .center-div{
         width: 90%;
     }        
-    .continue-with-google{
+    .continue-with-buttons{
         width: 100%;
     }        
 }
 
 @media screen and (min-width: 641px) and (max-width:768px) {
     .center-div{
-        width: 40%;
+        width: 42%;
     } 
-    .continue-with-google{
-        width: 50%;
+    .continue-with-buttons{
+        width: 100%;
     }
 }
 @media screen and (min-width: 769px) and (max-width:1024px) {
     .center-div{
-        width: 30%;
+        width: 42%;
     }    
-    .continue-with-google{
-        width: 50%;
-    }
-}
-@media screen and (min-width: 1025px) and (max-width:1280px) {
-    .center-div{
-        width: 30%;
-    }   
-    .continue-with-google{
-        width: 50%;
+    .continue-with-buttons{
+        width: 75%;
     }
 }
 
-@media only screen and (min-width:1281px) and (max-width:1440px){
+@media only screen and (min-width: 1025px) and (max-width:1440px){
     .center-div{
-        width: 30%;
+        width: 42%;
     }
-    .continue-with-google{
-        width: 50%;
+    .continue-with-buttons{
+        width: 60%;
     }
          
 }
 
-@media only screen and (min-width:1441px){
+@media only screen and (min-width:1441px){ /*My laptop screen resolution*/
     .center-div{
-        width: 30%;
+        width: 35%;
     }
-    .continue-with-google{
-        width: 50%;
+    .continue-with-buttons{
+        width: 60%;
     }
 }
 
