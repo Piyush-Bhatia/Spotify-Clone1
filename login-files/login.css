@@ -68,7 +68,7 @@ body{
 
 
 @media screen and (max-width: 640px) { /*Mobile phone screen resolution*/
-    .center-div, .for-email{
+    .center-div, .for-email, .for-password{
         width: 90%;
     }        
     .continue-with-buttons{
@@ -92,7 +92,7 @@ body{
     .continue-with-buttons{
         width: 100%;
     }
-    .for-email{
+    .for-email, .for-password{
         width: 70%;
     }
 }
@@ -103,7 +103,7 @@ body{
     .continue-with-buttons{
         width: 75%;
     }
-    .for-email{
+    .for-email, .for-password{
         width: 80%;
     }
 }
@@ -115,7 +115,7 @@ body{
     .continue-with-buttons{
         width: 60%;
     }
-    .for-email{
+    .for-email, .for-password{
         width: 70%;
     }
          
@@ -128,7 +128,7 @@ body{
     .continue-with-buttons{
         width: 60%;
     }
-    .for-email{
+    .for-email, .for-password{
         width: 70%;
     }
 }

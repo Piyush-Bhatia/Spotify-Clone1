@@ -75,6 +75,7 @@
             <div class="row">
               <div class="form-div col-md-12 col-sm-12">
                 <div class="form">
+                  <!-- email label div starts -->
                   <div class="py-2">
                     <div class="label-email text-light">
                       <label for="email-address">
@@ -82,8 +83,20 @@
                       </label>
                     </div>
                   </div>
+                  <!-- email label div starts -->
+                  <!-- input email div starts -->
                   <div class="mx-4 my-2">
                     <input class="for-email bg-transparent text-light" id="email-address" type="text" placeholder="Email address or username" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
+                  </div>
+                  <!-- input email div ends -->
+                  <!-- password label div starts -->
+                  <div class="py-2">
+                    <label class="label-password text-light text-left" for="password">Password</label>
+                  </div>
+                  <!-- password input div ends -->
+                  <div class="my-2 mx-4" >
+                    <input id="password" class="for-password bg-transparent text-light" type="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least 6 characters, should contain one special characters">
+                    </input>
                   </div>
                 </div>
               </div>  
@@ -104,13 +117,7 @@
               <div class="form">
                 
                 
-                <div class="py-2">
-                  <label class="label-password text-light text-left" for="password">Password</label>
-                </div>
-                <div class="my-2 mx-4" >
-                  <input id="password" class="for-password bg-transparent text-light" type="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least 6 characters, should contain one special characters">
-                  </input>
-                </div>
+                
                 <div class="button-div py-3">
                   <div class="col-3 w-25"></div>
                   <button type="button" class="login btn btn-success rounded-pill col-5">Log In</button>
