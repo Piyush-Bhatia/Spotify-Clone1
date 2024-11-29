@@ -9,7 +9,6 @@ loginButton.addEventListener('click', function aalert(){
     if(email.value.trim() === ' ' || password.value.trim() === ' '){
         alert('Fields cannot be empty');
     }else{
-
         alert(`Email = ${email.value} and password = ${password.value} is valid and successfully logged in`);
     }
 
