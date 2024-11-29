@@ -73,7 +73,16 @@ body{
     }        
     .continue-with-buttons{
         width: 100%;
-    }        
+    } 
+    .cwf{
+        font-size: smaller;
+    }       
+    .cwpn{
+        font-size: smaller;
+    }
+    .white-line{
+        width: 100%;
+    }     
 }
 
 @media screen and (min-width: 641px) and (max-width:768px) {
