@@ -12,4 +12,4 @@ loginButton.addEventListener('click', function aalert(){
         alert(`Email = ${email.value} and password = ${password.value} is valid and successfully logged in`);
     }
 
-    })
+})
