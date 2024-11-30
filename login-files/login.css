@@ -74,7 +74,7 @@ body{
     .continue-with-buttons{
         width: 100%;
     } 
-    .cwf{
+    .cwf, .dont-have-an-account{
         font-size: smaller;
     }       
     .cwpn{
