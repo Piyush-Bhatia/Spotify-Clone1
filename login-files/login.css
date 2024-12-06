@@ -134,7 +134,7 @@ body{
 
 @media only screen and (min-width:1441px){ /*My laptop screen resolution*/
     .center-div{
-        width: 35%;
+        width: 40%;
     }
     .continue-with-buttons{
         width: 60%;
@@ -147,15 +147,6 @@ body{
     }
 }
 
-/* @keyframes lg-spotify {
-    from {
-      transform: translateX(0%);
-    }
-  
-    to {
-      transform: translateX(100%);
-    }
-  } */
 
 /* .for-email:invalid, .for-password:invalid{
     border: 2px solid red;

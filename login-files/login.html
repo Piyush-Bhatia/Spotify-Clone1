@@ -88,7 +88,7 @@
                   <!-- email label div starts -->
                   <!-- input email div starts -->
                   <div class="mx-4 my-2">
-                    <input class="for-email bg-transparent text-light" id="email-address" type="text" placeholder="Email address or username" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
+                    <input class="for-email bg-transparent text-light" minlength="8" id="email-address" type="text" placeholder="Email address or username" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
                   </div>
                   <!-- input email div ends -->
                   <!-- password label div starts -->
@@ -98,7 +98,7 @@
                   <!-- password label div ends -->
                   <!-- password input div starts -->
                   <div class="my-2 mx-4" >
-                    <input id="password" class="for-password bg-transparent text-light" type="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least 6 characters, should contain one special characters">
+                    <input id="password" minlength="8" class="for-password bg-transparent text-light" type="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least 6 characters, should contain one special characters">
                     </input>
                   </div>
                   <!-- password input div ends -->
