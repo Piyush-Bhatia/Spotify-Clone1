@@ -7,10 +7,16 @@ body{
     background-color: black;
     color: white;
 }
-
-
+.styling1{
+    width: 30%;
+    text-align: center;
+}
 .styling{
     border: 2px solid white;
     padding: 3px 15px;
-    width: 500px;
+    width: 70%;
+}
+
+@media screen and (max-width: 320px) {
+    
 }
