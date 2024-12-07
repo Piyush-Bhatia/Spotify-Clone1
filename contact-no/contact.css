@@ -8,15 +8,41 @@ body{
     color: white;
 }
 .styling1{
-    width: 30%;
     text-align: center;
 }
 .styling{
     border: 2px solid white;
     padding: 3px 15px;
-    width: 70%;
 }
 
-@media screen and (max-width: 320px) {
-    
+.button-div button{
+    background-color: #1ed760;
+}
+
+.button-div button:hover{
+    background-color: #3be477;
+}
+
+
+@media screen and (max-width: 425px) {
+}
+@media screen and (min-width: 426px), (max-width: 768px) {
+    .number-input-div{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 769px), (max-width: 1024px) {
+    .number-input-div{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 1025px), (max-width: 1440px) {
+    .number-input-div{
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1441px){
+    .number-input-div{
+        width: 20%;
+    }
 }
