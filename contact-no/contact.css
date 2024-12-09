@@ -23,9 +23,6 @@ body{
     background-color: #3be477;
 }
 
-
-@media screen and (max-width: 425px) {
-}
 @media screen and (min-width: 426px), (max-width: 768px) {
     .number-input-div{
         width: 60%;
