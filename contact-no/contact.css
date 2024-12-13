@@ -23,6 +23,16 @@ body{
     background-color: #3be477;
 }
 
+.error{
+    color: red;
+    display: block;
+}
+
+.success{
+    color: green;
+    display: block;
+}
+
 @media screen and (min-width: 426px), (max-width: 768px) {
     .number-input-div{
         width: 60%;
